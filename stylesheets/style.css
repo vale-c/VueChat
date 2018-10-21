@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=VT323|Russo+One|Roboto+Condensed');
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  text-align: center;
+  font-family: 'VT323', monospace !important;
+  font-size: 26px;
+  font-weight: 400;
+  background-image: url('../images/hack.jpg') !important;
+}
+
+h1, h2 {
+  font-family: 'Russo One', sans-serif !important;
+}
+
+h3 {
+  font-family: 'Roboto Condensed' , sans-serif !important;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.chatbox-container{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-image: url('../images/hack.jpg') !important;
+}
+
+.myChat{
+  margin: 1em auto;
+  font-family: 'VT323', 'monospace' !important;
+  font-size: 28px;
+  font-weight: 400;
+  overflow-y: scroll;
+  border: 2px dashed white;
+  border-radius: 5px;
+  width: 800px;
+  height: 500px;
+  background-color: black;
+}
